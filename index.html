@@ -1,14 +1,22 @@
-<! Doctype html>
+<!DOCTYPE html>
 <html>
-
+<head>
+    <title>JavaScript Example</title>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+    </script>
+</head>
 <body>
-<h1>My First JavaScript<h1>
-  
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
+    <h1>My First JavaScript</h1>
 
-<p id="demo"></p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.
+    </button>
+
+    <p id="demo">A Paragraph</p>
 
 </body>
-</html> 
+</html>
+
